@@ -1,0 +1,89 @@
+.drag-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .drop-zone {
+    background: #f1f5f9;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 10px;
+    width: 400px;
+    min-height: 100px;
+  }
+  
+  .drop-zone h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: grab;
+  }
+  
+  .card:active {
+    cursor: grabbing;
+  }
+  
+  .Title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+  }
+
+  .dots{
+      cursor: pointer;
+  }
+
+  .CardItem{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+  }
+
+  .AddCard{
+      margin-top: 15px;
+      width: 100%;
+  }
+
+  .AddCardBtn{
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      outline: none;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+  }
+
+  .AddCardBtn:hover{
+      background-color: #e2e8f0;
+  }
+
+  .options-menu{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+   right: 0px;
+    top: 1.8rem;
+    padding: 5px;
+    gap: 5px;
+    width: 120px;
+  }
+
+  .options-menu button{
+    padding:10px 15px ;
+    border: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
